@@ -1,0 +1,45 @@
+.Pokemon-details {
+    display: flex;
+    flex-direction: column;
+    width: 40vw;
+    align-items: left;
+    justify-content: center;
+    gap: 5vh;
+}
+
+.Pokemon-data {
+    display: flex;
+    justify-content: space-between;
+}
+
+.Pokemon-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.Pokemon-stats > div {
+    display: flex;
+    gap: 5vw;
+}
+
+.Pokemon-stats > div > p {
+    display: flex;
+    flex-direction: column;
+}
+
+.Pokemon-abilities > p {
+    display: flex;
+    flex-direction: column;
+}
+
+@media (max-width: 1600px) {
+    .Pokemon-data {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 1250px) {
+    .Pokemon-container {
+        flex-direction: column;
+    }
+}

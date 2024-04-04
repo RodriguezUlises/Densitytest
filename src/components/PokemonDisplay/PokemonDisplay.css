@@ -1,0 +1,49 @@
+.Pokemon-display {
+    width: 40vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    user-select: none;
+}
+
+.Pokemon-image {
+    width: 15vw;
+    min-width: 200px;
+    animation: pokemon-float infinite 2s ease-out;
+}
+
+.Shadow {
+    width: 10vw;
+    min-width: 150px;
+    height: 5vh;
+    min-height: 50px;
+    background-color: #2E3440;
+    border-radius: 100%;
+    animation: shadow-resize infinite 2s ease-out;
+}
+
+@keyframes pokemon-float {
+    0% {
+      transform: translateY(20px);
+    }
+    50% {
+      transform: translateY(0px);
+    }
+    100% {
+      transform: translateY(20px);
+    }
+}
+
+@keyframes shadow-resize {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(0.95);
+      background-color: #2e3440d8;
+    }
+    100% {
+      transform: scale(1);
+    }
+}

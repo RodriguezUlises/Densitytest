@@ -1,0 +1,28 @@
+.App {
+  background-color: #ECEFF4;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 3vmin;
+  gap: 10px;
+}
+
+.Content {
+  display: flex;
+  min-height: 70vh;
+  margin-bottom: 25px;
+}
+
+.Return-button {
+  position: absolute;
+  top: 8vh;
+  left: 8vw;
+}
+
+@media (max-width: 1600px) {
+  .Return-button {
+    top: 3vh;
+  }
+}

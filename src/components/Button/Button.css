@@ -1,0 +1,22 @@
+.Button {
+    border: none;
+    background-color: #81A1C1;
+    color: white;
+    padding: 1vw;
+    min-width: 120px;
+    min-height: 40px;
+    padding-inline: 4vw;
+    border-radius: 25px;
+    cursor: pointer;
+    user-select: none;
+}
+
+.Button:active {
+    background-color: #5E81AC;
+}
+
+.Button:disabled {
+    opacity: 0.5;
+    cursor: default;
+    pointer-events: none;
+}
